@@ -4,8 +4,11 @@
 
 
 def canUnlockAll(boxes):
-    '''Checks if all the boxes in a list of boxes containing the keys (inidices) to other boxes can be unlocked given that the first box is unlocked
+    '''Checks if all the boxes in a list of boxes containing the keys
+    (inidices) to other boxes can be unlocked given that the first 
+    box is unlocked
     '''
+    
     n = len(boxes)
     seen_boxes = set([0])
     unseen_boxes = set(boxes[0]) .defference(set([0]))
