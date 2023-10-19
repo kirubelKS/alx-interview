@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-'''A script for parsing HTTP request logs.
-'''
+'''script that reads stdin line by line and computes metrics.'''
 import re
 
 
@@ -86,4 +85,3 @@ def run():
 
 if __name__ == '__main__':
     run()
-    
